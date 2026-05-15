@@ -1,3 +1,6 @@
+#!/bin/bash
+stow --adopt .
+
 sudo pacman -S hyprland xorg-xwayland \
     xdg-desktop-portal-hyprland \
     hyprpaper hyprlock hypridle \
@@ -18,5 +21,7 @@ sudo pacman -S hyprland xorg-xwayland \
     tumbler \
     ffmpegthumbnailer \
     file-roller
+
+yay -Sy brave
 
 systemctl enable sddm
