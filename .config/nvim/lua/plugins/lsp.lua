@@ -21,6 +21,10 @@ return {
 
         -- Java
         "jdtls",
+
+        -- Rust
+        "rust-analyzer",
+        "taplo",
       },
     },
   },
@@ -77,6 +81,24 @@ return {
                   { name = "JavaSE-17", path = "/usr/lib/jvm/java-17-openjdk" },
                   { name = "JavaSE-21", path = "/usr/lib/jvm/java-21-openjdk" },
                 },
+              },
+            },
+          },
+        },
+        -- Rust
+        rust_analyzer = {
+          settings = {
+            ["rust-analyzer"] = {
+              cargo = {
+                allFeatures = true,
+              },
+              checkOnSave = {
+                command = "clippy",
+              },
+              inlayHints = {
+                bindingModeHints = { enable = true },
+                chainingHints = { enable = true },
+                typeHints = { enable = true },
               },
             },
           },
