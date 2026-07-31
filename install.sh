@@ -31,11 +31,11 @@ sudo pacman -S hyprland xorg-xwayland \
     obs-studio \
     mpv \
     qt6-svg \
-    qt6-declarative
+    qt6-declarative \
+    starship
 
-yay -Sy brave \
-    wlogout \
-    zen-browser-bin
+yay -S zen-browser-bin \
+    wlogout
 
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
