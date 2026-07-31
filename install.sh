@@ -25,7 +25,11 @@ sudo pacman -S hyprland xorg-xwayland \
     libreoffice-fresh \
     neovim \
     curl \
-    adwaita-cursors
+    adwaita-cursors \
+    awww \
+    brightnessctl \
+    obs-studio \
+    mpv
 
 yay -Sy brave \
     wlogout \
