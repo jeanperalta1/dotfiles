@@ -20,8 +20,17 @@ sudo pacman -S hyprland xorg-xwayland \
     gvfs-gphoto2 \
     tumbler \
     ffmpegthumbnailer \
-    file-roller
+    file-roller \
+    blueman \
+    libreoffice-fresh \
+    neovim \
+    curl \
+    adwaita-cursors
 
-yay -Sy brave
+yay -Sy brave \
+    wlogout \
+    zen-browser-bin
+
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 systemctl enable sddm
