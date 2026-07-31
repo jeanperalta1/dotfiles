@@ -105,7 +105,7 @@
     "on-click": "kitty -e bash -lc 'paru -Syyu --noconfirm'"
   },
   "temperature": {
-    "format": "{icon} {temperatureC}°C ",
+    "format": "{icon} {temperatureF}°F ",
     "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
     "critical-threshold": 80,
     "format-icons": ["", "", ""]
@@ -131,7 +131,7 @@
     "on-click": "bash -lc '~/.config/waybar/scripts/hyprsunset.sh toggle'"
   },
   "custom/bluetooth": {
-    "exec": "echo \"󰂯 \"",
+    "exec": "echo \" 󰂯 \"",
     "interval": 0,
     "tooltip": true,
     "tooltip-format": "Bluetooth",
@@ -145,7 +145,7 @@
     "on-click": "kitty -e nmtui"
   },
   "battery": {
-    "format": "{capacity}% {icon}",
+    "format": "{icon} {capacity}%",
     "format-icons": ["", "", "", "", ""]
   },
   "custom/powermenu": {

@@ -29,12 +29,19 @@ sudo pacman -S hyprland xorg-xwayland \
     awww \
     brightnessctl \
     obs-studio \
-    mpv
+    mpv \
+    qt6-svg \
+    qt6-declarative
 
 yay -Sy brave \
     wlogout \
     zen-browser-bin
 
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+cd /tmp
+curl -LO https://github.com/catppuccin/sddm/releases/download/v1.1.2/catppuccin-mocha-mauve-sddm.zip
+unzip catppuccin-mocha-mauve-sddm.zip
+sudo mv catppuccin-mocha-mauve /usr/share/sddm/themes/
 
 systemctl enable sddm
