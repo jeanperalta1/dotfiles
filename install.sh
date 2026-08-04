@@ -44,4 +44,8 @@ curl -LO https://github.com/catppuccin/sddm/releases/download/v1.1.2/catppuccin-
 unzip catppuccin-mocha-mauve-sddm.zip
 sudo mv catppuccin-mocha-mauve /usr/share/sddm/themes/
 
+sed -i 's|/home/[^/]*/\.config/wlogout/icons/|icons/|g' ~/.config/wlogout/style.css
+
+sudo systemctl enable --now bluetooth
+
 systemctl enable sddm

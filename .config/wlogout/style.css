@@ -4,11 +4,11 @@
 }
 
 window {
-  background-color: rgba(30, 30, 46, 0.9);
+  background-color: rgba(30, 30, 46, 0.90);
 }
 
 button {
-  border-radius: 5;
+  border-radius: 0;
   border-color: #cba6f7;
   text-decoration-color: #cdd6f4;
   color: #cdd6f4;
@@ -17,32 +17,30 @@ button {
   border-width: 1px;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 15%;
+  background-size: 25%;
 }
 
-button:focus,
-button:active,
-button:hover {
+button:focus, button:active, button:hover {
   /* 20% Overlay 2, 80% mantle */
   background-color: rgb(48, 50, 66);
   outline-style: none;
 }
 
 #lock {
-  background-image: url("icons/lock.svg");
+    background-image: url("/home/user/.config/wlogout/icons/lock.svg");
 }
 #logout {
-  background-image: url("icons/logout.svg");
+    background-image: url("/home/user/.config/wlogout/icons/logout.svg");
 }
 #suspend {
-  background-image: url("icons/suspend.svg");
+    background-image: url("/home/user/.config/wlogout/icons/suspend.svg");
 }
 #hibernate {
-  background-image: url("icons/hibernate.svg");
+    background-image: url("/home/user/.config/wlogout/icons/hibernate.svg");
 }
 #shutdown {
-  background-image: url("icons/shutdown.svg");
+    background-image: url("/home/user/.config/wlogout/icons/shutdown.svg");
 }
 #reboot {
-  background-image: url("icons/reboot.svg");
+    background-image: url("/home/user/.config/wlogout/icons/reboot.svg");
 }
