@@ -32,7 +32,9 @@ sudo pacman -S hyprland xorg-xwayland \
     mpv \
     qt6-svg \
     qt6-declarative \
-    starship
+    starship \ 
+rofimoji \
+    wtype
 
 yay -S zen-browser-bin \
     wlogout
