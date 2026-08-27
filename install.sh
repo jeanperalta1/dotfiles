@@ -32,8 +32,9 @@ sudo pacman -S hyprland xorg-xwayland \
     mpv \
     qt6-svg \
     qt6-declarative \
-    starship \ 
-rofimoji \
+    starship \
+    btop \
+    rofimoji \
     wtype
 
 yay -S zen-browser-bin \
