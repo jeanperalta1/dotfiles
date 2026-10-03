@@ -35,7 +35,8 @@ sudo pacman -S hyprland xorg-xwayland \
     starship \
     btop \
     rofimoji \
-    wtype
+    wtype \
+    perl-image-exiftool
 
 yay -S zen-browser-bin \
     wlogout
